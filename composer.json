@@ -5,9 +5,6 @@
     "keywords": ["image", "color", "extract", "palette", "human"],
     "homepage": "https://github.com/DiggipacksCo/laravel-color-extractor",
     "license": "MIT",
-    "replace": {
-        "matthecat/colorextractor": "*"
-    },
     "authors": [
         {
             "name": "Mathieu Lechat",
