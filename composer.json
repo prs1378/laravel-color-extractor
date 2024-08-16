@@ -5,6 +5,9 @@
     "keywords": ["image", "color", "extract", "palette", "human"],
     "homepage": "https://github.com/DiggipacksCo/laravel-color-extractor",
     "license": "MIT",
+    "replace": {
+        "matthecat/colorextractor": "*"
+    },
     "authors": [
         {
             "name": "Mathieu Lechat",
@@ -14,6 +17,18 @@
         }
     ],
     "require": {
-        
+        "php": ">=5.4.0",
+        "ext-gd": "*"
     },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "~2",
+        "phpunit/phpunit": "~5"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    }
+
+    "minimum-stability": "stable",
 }
